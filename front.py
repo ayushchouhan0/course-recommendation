@@ -57,7 +57,7 @@ st.markdown("""
 st.markdown('<h1 class="main-header">🎓 Course Recommendation System</h1>', unsafe_allow_html=True)
 
 # API endpoint configuration
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://course-recommender-backend-yrfa.onrender.com"
 
 # Create two columns for layout
 col1, col2 = st.columns([2, 1])
@@ -283,3 +283,4 @@ with st.sidebar:
     
     if st.button("🔄 Reset Form"):
         st.rerun()
+
