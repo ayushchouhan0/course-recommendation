@@ -176,7 +176,7 @@ if st.button(" Get Recommendation", type="primary", use_container_width=True):
     try:
         with st.spinner("Analyzing your profile..."):
             # Make API call
-            response = requests.post(API_URL+'/predict, json=student_data, timeout=10)
+            response = requests.post(API_URL+'/predict', json=student_data, timeout=10)
             
             if response.status_code == 200:
                 result = response.json()
@@ -283,5 +283,6 @@ with st.sidebar:
     
     if st.button("🔄 Reset Form"):
         st.rerun()
+
 
 
