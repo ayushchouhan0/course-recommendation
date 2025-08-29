@@ -9,10 +9,10 @@ Visual Analytics: Profile analysis with charts and metrics
 Comprehensive Profiling: 12 different factors including academics, skills, and experience
 
 ## Available Courses
-Business Analytics (part-time)
-Data Science and AI (full-time)
-Data Analytics + Machine Learning (part-time)
-Data Science (part-time)
+- Business Analytics (part-time)
+- Data Science and AI (full-time)
+- Data Analytics + Machine Learning (part-time)
+- Data Science (part-time)
 
 ## Student Profile Features
 Feature	Type	Range/Categories
