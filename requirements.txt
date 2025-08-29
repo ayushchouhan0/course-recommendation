@@ -1,0 +1,15 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic
+
+# Data processing and ML
+pandas
+scikit-learn==1.6.1
+joblib
+numpy
+
+# Streamlit frontend dependencies
+streamlit
+requests
+plotly
