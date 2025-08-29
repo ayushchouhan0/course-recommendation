@@ -250,7 +250,6 @@ if st.button(" Get Recommendation", type="primary", use_container_width=True):
 
 # Footer with instructions
 st.markdown("---")
-st.markdown("###  Instructions")
 st.markdown("""
 **Course Options:**
 - Business Analytics (part-time)
@@ -283,6 +282,7 @@ with st.sidebar:
     
     if st.button("🔄 Reset Form"):
         st.rerun()
+
 
 
 
